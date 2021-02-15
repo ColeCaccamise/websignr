@@ -532,10 +532,12 @@ footer a:hover {
   }
   #hero .hero-col .heading-col h1 {
     font-size: 34px;
-    line-height: 50px;
+    line-height: 45px;
+    margin-bottom: 10px;
   }
   #hero .hero-col .buttons {
     width: 50%;
+    margin-top: 10px;
   }
   #hero .hero-col .buttons .btn {
     display: inline-block;
