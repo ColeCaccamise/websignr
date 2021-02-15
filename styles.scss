@@ -493,6 +493,7 @@ footer {
   }
 
   #services {
+    padding-top: 100px;
     .container {
       .services-col {
         width: 100%;
@@ -511,7 +512,7 @@ footer {
         width: 100%;
 
         h1 {
-          font-size: 18px;
+          font-size: 20px;
         }
 
         input,
@@ -541,6 +542,29 @@ footer {
       flex-direction: column;
       height: 100%;
       justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  #contact {
+    .container {
+      .form-card {
+        max-width: 400px;
+        width: 85%;
+
+        input,
+        textarea {
+          width: 100%;
+
+          margin: 0 auto;
+        }
+
+        textarea {
+          display: flex;
+          align-items: center;
+        }
+      }
     }
   }
 }
