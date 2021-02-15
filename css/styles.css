@@ -124,9 +124,16 @@ a {
   text-align: left;
 }
 
-.blogs {
+.blogs,
+.success {
   width: 80%;
   min-height: calc(100% - 270px);
+}
+
+.success i {
+  font-size: 80px;
+  color: green;
+  margin-bottom: 10px;
 }
 
 .btn {
@@ -425,5 +432,61 @@ footer a:hover {
 
 .icons i:hover {
   color: rgba(255, 255, 255, 0.67);
+}
+
+@media (max-width: 750px) {
+  body {
+    overflow-x: hidden;
+  }
+  #hero {
+    width: 100%;
+  }
+  #hero.blogs h1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #hero.blogs p {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #hero h1 {
+    width: 80%;
+  }
+  #hero p {
+    width: 70%;
+  }
+  #services .container .services-col {
+    width: 100%;
+  }
+  #services .container .services-col p {
+    text-align: center;
+  }
+  #contact .container .form-card {
+    max-width: 465px;
+    width: 100%;
+  }
+  #contact .container .form-card h1 {
+    font-size: 18px;
+  }
+  #contact .container .form-card input,
+  #contact .container .form-card textarea {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contact .container .form-card textarea {
+    display: flex;
+    align-items: center;
+  }
+  .navbar {
+    height: 100px;
+  }
+  .navbar .container {
+    flex-direction: column;
+  }
+  footer .container {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
