@@ -619,4 +619,10 @@ footer {
       }
     }
   }
+  .blogs,
+  .success,
+  .error {
+    width: 80%;
+    min-height: calc(100% - 210px);
+  }
 }

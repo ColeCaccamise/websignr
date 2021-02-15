@@ -565,5 +565,11 @@ footer a:hover {
   #hero .hero-col .p-col {
     width: 70%;
   }
+  .blogs,
+  .success,
+  .error {
+    width: 80%;
+    min-height: calc(100% - 210px);
+  }
 }
 /*# sourceMappingURL=styles.css.map */
