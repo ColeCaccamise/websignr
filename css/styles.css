@@ -455,6 +455,9 @@ footer a:hover {
   #hero {
     width: 100%;
   }
+  #hero .hero-col {
+    width: 100%;
+  }
   #hero.blogs h1, #hero.success h1, #hero.error h1 {
     width: 80%;
     margin: 0 auto;
@@ -501,6 +504,46 @@ footer a:hover {
     flex-direction: column;
     height: 100%;
     justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  #hero .hero-col .heading-col {
+    width: 90%;
+  }
+  #hero .hero-col .heading-col h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  #hero .hero-col .buttons {
+    width: 70%;
+  }
+  #hero .hero-col .p-col {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  #hero {
+    margin-top: 40px;
+  }
+  #hero .hero-col .heading-col {
+    width: 70%;
+  }
+  #hero .hero-col .heading-col h1 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  #hero .hero-col .buttons {
+    width: 50%;
+  }
+  #hero .hero-col .buttons .btn {
+    display: block;
+    width: 160px;
+    margin: 10px 0;
+  }
+  #hero .hero-col .p-col {
+    width: 70%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

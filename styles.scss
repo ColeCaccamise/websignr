@@ -465,6 +465,9 @@ footer {
 @media (max-width: 750px) {
   #hero {
     width: 100%;
+    .hero-col {
+      width: 100%;
+    }
 
     &.blogs,
     &.success,
@@ -538,6 +541,57 @@ footer {
       flex-direction: column;
       height: 100%;
       justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #hero {
+    .hero-col {
+      .heading-col {
+        width: 90%;
+        h1 {
+          font-size: 40px;
+          line-height: 55px;
+        }
+      }
+
+      .buttons {
+        width: 70%;
+      }
+
+      .p-col {
+        width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #hero {
+    margin-top: 40px;
+    .hero-col {
+      .heading-col {
+        width: 70%;
+        h1 {
+          font-size: 34px;
+          line-height: 50px;
+        }
+      }
+
+      .buttons {
+        width: 50%;
+
+        .btn {
+          display: block;
+          width: 160px;
+          margin: 10px 0;
+        }
+      }
+
+      .p-col {
+        width: 70%;
+      }
     }
   }
 }
