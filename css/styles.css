@@ -538,8 +538,7 @@ footer a:hover {
     width: 50%;
   }
   #hero .hero-col .buttons .btn {
-    display: block;
-    width: 160px;
+    display: inline-block;
     margin: 10px 0;
   }
   #hero .hero-col .p-col {
