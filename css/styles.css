@@ -125,7 +125,8 @@ a {
 }
 
 .blogs,
-.success {
+.success,
+.error {
   width: 80%;
   min-height: calc(100% - 270px);
 }
@@ -134,6 +135,17 @@ a {
   font-size: 80px;
   color: green;
   margin-bottom: 10px;
+}
+
+.error i {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.error .btn {
+  width: 205px;
+  display: block;
+  margin: 10px auto;
 }
 
 .btn {
@@ -441,11 +453,11 @@ footer a:hover {
   #hero {
     width: 100%;
   }
-  #hero.blogs h1 {
+  #hero.blogs h1, #hero.success h1, #hero.error h1 {
     width: 80%;
     margin: 0 auto;
   }
-  #hero.blogs p {
+  #hero.blogs p, #hero.success p, #hero.error p {
     width: 70%;
     margin: 0 auto;
   }

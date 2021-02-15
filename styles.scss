@@ -126,7 +126,8 @@ a {
 }
 
 .blogs,
-.success {
+.success,
+.error {
   width: 80%;
   min-height: calc(100% - 270px);
 }
@@ -136,6 +137,19 @@ a {
     font-size: 80px;
     color: green;
     margin-bottom: 10px;
+  }
+}
+
+.error {
+  i {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    width: 205px;
+    display: block;
+    margin: 10px auto;
   }
 }
 
@@ -450,7 +464,9 @@ footer {
   #hero {
     width: 100%;
 
-    &.blogs {
+    &.blogs,
+    &.success,
+    &.error {
       h1 {
         width: 80%;
         margin: 0 auto;

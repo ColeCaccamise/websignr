@@ -13,12 +13,11 @@ window.onscroll = () => {
   }
 };
 
-// button shake animation form validation
-btn.addEventListener("click", () => {
+const shake = () => {
   if (name.value == "" || email.value == "" || textarea.value == "") {
     btn.classList.add("redBtn");
   }
   setTimeout(() => {
     btn.classList.remove("redBtn");
   }, 820);
-});
+};
