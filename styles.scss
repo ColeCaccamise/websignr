@@ -13,6 +13,11 @@ body {
   margin: 0 0 70px;
   top: 70px; // accounts for size of navbar
   position: relative;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 p {
@@ -458,9 +463,6 @@ footer {
 
 // media queries
 @media (max-width: 750px) {
-  body {
-    overflow-x: hidden;
-  }
   #hero {
     width: 100%;
 
