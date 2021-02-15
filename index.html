@@ -11,37 +11,149 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" id="font-awesome-css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css?ver=5.4.2" type="text/css" media="all">
     <title>websignr | coming soon</title>
   </head>
   <body>
+    <header>
+      <nav class='navbar'>
+      <div class="container">
+        <div class="logo">
+          <a href="#">websignr.</a>
+        </div>
+        <div class="navbar-links">
+          <ul class="menu">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+    </header>
+
     <main>
       <section id="hero">
-        <h1>websignr.</h1>
-        <h3>e-commerce web design agency</h3>
-        <p>more info soon</p>
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-col">
+          <h1>The ecommerce web design agency to help you succeed online.</h1>
+          <div class="p-col">
+          <p>
+            We create beautiful, functional and sustainable websites that ensure
+            your customers are pleased.
+          </p>
+        </div>
+        <div class="buttons">
+          <a href="#contact" class="btn btn-light">Get In Touch</a>
+          <a href="#services" class="btn btn-outline">Learn More</a>
+        </div>
+
+        </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+        <div class="services-col">
+        <h2>Why us?</h2>
+        <div class="heading-col">
+        <h1>The websignr difference</h1>
+      </div>
+      <div class="p-col">
+        <p>
+          We're more than just a pretty face; We build your eccomerce site from
+          the ground up to help your online business succeed
+        </p>
+      </div>
+    </div>
+      <div class="cards">
+        <div class="card">
+          <i class="fab fa-shopify"></i>
+          <h1>Built With Shopify</h1>
+          <p>Our sites are built on top of the Shopify platform.</p>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-search"></i>
+          <h1>SEO Optimization</h1>
+          <p>We design your store to reach more potential customers, increasing your sales.</p>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-bullhorn"></i>
+          <h1>Digital Marketing</h1>
+          <p>We offer digital marketing services to help your store see more customers.</p>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-tools"></i>
+          <h1>Site Maintenance</h1>
+          <p>We offer 90 days of complementary maintenance with your e-commerce site. Low price plans are available to purchase after the 90-day period.</p>
+        </div>
+
+      </div>
+    </div>
+      </section>
+
+      <section id="launch">
+        <div class="container">
+          <div class="launch-content">
+            <i class="fas fa-rocket"></i>
+          <h1>We're Launching Soon</h1>
+          <p>The websignr team is gearing up for launch later this year. An official annoucement will be shared on our <a href="blog.html">blog</a> and <a href="http://solo.to/websignr" target="_blank">social pages</a> as we get closer.</p>
+        </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <div class="form-card">
+            <div class="card-content">
+            <h1>Are you interested in working with us?</h1>
+            <form action="" class="contact-form" netlify>
+              <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+              </p>
+              <label for="name">Name</label>
+              <input class='name' type="text" name="name" placeholder="Name" required>
+              <label for="email">Email</label>
+              <input class='email' type="email" name="email" placeholder="Email" required>
+              <label class='textarea' for="textarea">How can we assist you?</label>
+              <textarea id='textarea' name="textarea" placeholder="I'd like to chat about..." required></textarea>
+              <button type="submit" class='btn btn-submit'><i class="far fa-envelope"></i> Contact Us</button>
+            </form>
+            <p>We typically respond within 24 hours.</p>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer>
-      <p>Copyright &copy; 2021 <span class="bold">websignr.</span></p>
+      <div class="container">
+      <p>Copyright &copy; 2021 <a href="#"><span class="bold">websignr.</span></a></p>
       <ul class="icons">
-        <a href="https://www.linkedin.com/company/websignr"
+        <a href="https://www.linkedin.com/company/websignr" target="_blank"
           ><i class="fab fa-linkedin-in circle-icon"></i
         ></a>
-        <a href="https://www.facebook.com/websignr"
+        <a href="https://www.facebook.com/websignr" target="_blank"
           ><i class="fab fa-facebook-f circle-icon"></i
         ></a>
-        <a href="https://twitter.com/websignr"
+        <a href="https://twitter.com/websignr" target="_blank"
           ><i class="fab fa-twitter circle-icon"></i
         ></a>
-        <a href="https://www.instagram.com/websignr/"
+        <a href="https://www.instagram.com/websignr/" target="_blank"
           ><i class="fab fa-instagram circle-icon"></i
         ></a>
       </ul>
+    </div>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>
