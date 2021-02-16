@@ -573,4 +573,10 @@ footer a:hover {
     min-height: calc(100% - 210px);
   }
 }
+
+@media (max-width: 375px) {
+  #services .container .cards .card {
+    height: 525px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

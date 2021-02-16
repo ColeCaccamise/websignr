@@ -627,3 +627,16 @@ footer {
     min-height: calc(100% - 210px);
   }
 }
+
+// small mobile devices card fix
+@media (max-width: 375px) {
+  #services {
+    .container {
+      .cards {
+        .card {
+          height: 525px;
+        }
+      }
+    }
+  }
+}
