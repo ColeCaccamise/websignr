@@ -208,7 +208,7 @@ a {
 }
 
 #services .container .p-col p {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   line-height: 28px;
   color: #586066;
@@ -430,7 +430,7 @@ footer .container {
 }
 
 footer p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -439,12 +439,12 @@ footer a:hover {
 }
 
 .icons {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .icons i {
   color: white;
-  padding: 0 10px;
+  padding: 0 12px;
 }
 
 .icons i:hover {
