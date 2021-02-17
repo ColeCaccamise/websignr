@@ -144,6 +144,25 @@ a {
     color: green;
     margin-bottom: 10px;
   }
+
+  .btn {
+    font-size: 15px;
+    display: inline-block;
+    background: green;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 0.75rem;
+
+    &:hover {
+      background: green;
+      opacity: 0.9;
+    }
+
+    i {
+      font-size: 15px;
+      color: white;
+    }
+  }
 }
 
 .error {
