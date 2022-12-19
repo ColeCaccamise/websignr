@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="flex h-screen">
       <div className="m-auto text-center ">
-        <h1 className='text-8xl tracking-widest uppercase mb-7'>websignr</h1>
+        <h1 className='text-8xl tracking-widest mb-7'>websignr</h1>
         <p className='text-xl'>A project by <a className='font-semibold hover:underline' href="https://caccamedia.com">Caccamedia</a>. More info coming in 2023.</p>
         <div className="flex mt-6 justify-center">
           <a className='text-4xl mr-4 hover:opacity-60' href="mailto:info@websignr.com"><FaEnvelope /></a>
