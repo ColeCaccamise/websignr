@@ -1,5 +1,5 @@
 # websignr
-More information on websignr will be coming some time in 2022.
+A web development/design agency building modern and engaging sites for businesses in tech and e-commerce.
 
-This project is developed by Cole Caccamise
-https://colecaccamise.com
+This project is being developed by Caccamedia
+https://caccamedia.com
